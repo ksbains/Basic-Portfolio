@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-us">
 	
-	<head class = "wrap">
+	<head>
 	  <meta charset="UTF-8">
-	  <title>Karanbir Bains</title>
-	  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	  <title>Contact</title>
+	  <link rel="stylesheet" type="text/css" href="./assets/css/styleContact.css">
 	</head>
 	
 	<body>
@@ -23,21 +23,44 @@
 		
 		<main class="wrap">
 			<div class = "contact">
-				<h1 id="head2">Contact</h1>
+				<h1 class = "tealhead">Contact</h1>
 
-				<hr/>
+				<hr id = 'split'/>
 
-				<div id= 'name'>
-					<h2>Name</h2>
-					<br>
-					<h2>Email</h2>
-					<br>
-					<h2>Message</h2>
-					<br>
-					<button> Submit </button>
-					
+				 <form>
+				 	<div class = "left">
+	    				<label class = "label" for="fname">Name</label>
+	    				<input class = "input" type="text" id="fname" name="name" placeholder="John Smith">
+
+	    				<label class = "label" for="femail">Email</label>
+	    				<input class = "input"type="text" id="femail" name="email" placeholder="example@gmail.com">
+	   					
+	    				<label class = "label" for="fmsg">Message</label>
+	  					<input class = "input" type="text" id="fmsg" name="msg">
+
+	   					<input type="submit" id="submit" value="Submit">
+   					</div>
+				</form>
+
+			</div>
+			<div class= "connect">
+				<h2 class = "tealhead">Connect with Me</h2>
+
+				<hr>
+
+				<div class="images">
+					<a href="https://github.com/ksbains">
+  						<img src="assets/images/github.png" alt="github" style="width:42px;height:42px;">
+					</a>
+
+					<a href="https://www.linkedin.com/feed/">
+  						<img src="assets/images/linkedin.png" alt="linkedin" style="width:42px;height:42px;">
+					</a>
+
+					<a href="https://stackoverflow.com/users/8414105/k-bains">
+  						<img src="assets/images/stackoverflow.png" alt="H" style="width:42px;height:42px;">
+					</a>
 				</div>
-
 			</div>
 		</main>
 
